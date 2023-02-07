@@ -1,4 +1,4 @@
-import { ToDoItems } from "./todoItem";
+import { ToDoItems } from "./TodoItem";
 
 export class ToDoList {
     constructor(public user: string, private items: ToDoItems[] = []){
