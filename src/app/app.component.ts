@@ -22,4 +22,7 @@ export class AppComponent {
     return this.list.item.filter(item => !item.complited).length;
   }
 
+  get items(): readonly ToDoItems[]{
+    return this.list.item;
+  };
 }

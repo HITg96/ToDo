@@ -1,5 +1,5 @@
 export class ToDoItems{
-    constructor(task: string, public complited: boolean = false){
+    constructor(public task: string, public complited: boolean = false){
         
     };
 }
